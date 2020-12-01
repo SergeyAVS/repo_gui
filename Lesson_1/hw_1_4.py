@@ -1,8 +1,8 @@
-number = int(input('Введите любое целое число:'))
-a = number % 10
-print(a)
-#while number < 10:
-#    print(number)
-#    number = number + 1
-#print('Программа завершена успешно')
-
+a = int(input('Введите любое целое число: '))
+b = a % 10
+a = a // 10
+while a > 0:
+    if a % 10 > b:
+        b = a%10
+    a = a//10
+print(b)
