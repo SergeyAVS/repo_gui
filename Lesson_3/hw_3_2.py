@@ -1,3 +1,6 @@
+'''
+Дубль 2
+'''
 def list_name():
     name_var = input('Введите ваше имя: ')
     last_name = input('Введите вашу фамилию: ')
@@ -8,5 +11,3 @@ def list_name():
     return name_var, last_name, age, cyti_m, email_m, phone_m
 a = list_name()
 print(a)
-
-

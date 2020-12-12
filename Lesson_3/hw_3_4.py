@@ -1,3 +1,6 @@
+'''
+Дубль 2
+'''
 def my_fu (x, y):
     return 1 / x ** abs(y)
 
